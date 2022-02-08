@@ -11,6 +11,7 @@ export class AppComponent {
   includeSymbols = false;
   password = '';
 
+  
   onChangeUseLetters() {
     this.includeLetters = !this.includeLetters;
   }
